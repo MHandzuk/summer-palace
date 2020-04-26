@@ -1,0 +1,169 @@
+@media screen and (max-width: 1320px) {
+  .header-bottom {
+    display: grid;
+    grid-template: 50% 50%/50% 50%;
+    grid-gap: 30px;
+    padding: 35px 10px 3px;
+  }
+
+  .footer-top {
+    grid-template: 50% 50%/50% 50%;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    display: grid;
+    grid-auto-flow: row;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .page-center {
+    margin-bottom: 80px;
+  }
+
+  .page-contacts {
+    grid-auto-flow: row;
+    justify-content: center;
+    grid-gap: 40px;
+    margin: 0 auto;
+  }
+
+  .contacts-left h1 {
+    text-align: center;
+  }
+
+  .contacts-right {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .video {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header-bottom {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template: auto / 50%;
+    justify-items: center;
+  }
+  .info-item {
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .nav > ul {
+    grid-template: 2fr 2fr / 2fr 2fr;
+    grid-gap: 20px;
+  }
+
+  .video {
+    width: 600px;
+    height: 439px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .plan h1,
+  .contacts-left h1,
+  .instagram h1 {
+    font-size: 30px;
+    line-height: 125%;
+  }
+
+  .contacts-left h1 {
+    font-size: 30px;
+    line-height: 125%;
+  }
+
+  .plan-buttons {
+    grid-gap: 50px;
+  }
+
+  .plan-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .video {
+    width: 500px;
+    height: 389px;
+  }
+
+  .footer-top {
+    grid-template: 25% 25% 25% 25% / auto;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .plan h1,
+  .contacts-left h1,
+  .instagram h1 {
+    font-size: 25px;
+    line-height: 105%;
+  }
+
+  .video {
+    width: 400px;
+    height: 329px;
+  }
+
+  .footer-bottom {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .plan h1,
+  .contacts-left h1 {
+    font-size: 22px;
+    line-height: 105%;
+  }
+
+  .instagram h1 {
+    font-size: 16px;
+    line-height: 55%;
+    text-align: center;
+  }
+
+  .nav > ul {
+    grid-template: 2fr 2fr 2fr / 2fr 2fr;
+    grid-gap: 20px;
+    justify-items: center;
+  }
+
+  .header-bottom {
+    padding: 50px 0 35px;
+  }
+
+  .plan h1,
+  .contacts-left h1,
+  .instagram h1 {
+    font-size: 20px;
+    line-height: 105%;
+  }
+  .info-item {
+    grid-template-columns: repeat(1, 40%);
+    justify-content: center;
+  }
+
+  .video {
+    width: 350px;
+    height: 300px;
+  }
+}
